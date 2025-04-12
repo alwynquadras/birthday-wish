@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Chintu!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffebcd;
+            text-align: center;
+            padding: 50px;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff6347;
+        }
+
+        .birthday-message {
+            font-size: 1.5em;
+            color: #4b0082;
+            margin-top: 20px;
+            display: none; /* Initially hide the birthday message */
+        }
+
+        .birthday-button {
+            background-color: #32cd32;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .birthday-button:hover {
+            background-color: #228b22;
+        }
+
+        .cat-gif {
+            margin-top: 30px;
+            width: 300px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday, Chintu!</h1>
+
+    <!-- Initially hidden birthday message -->
+    <p class="birthday-message" id="birthdayMessage">Wishing you an amazing year ahead, full of joy, laughter, and endless adventures! May your sopna come true.</p>
+
+    <button class="birthday-button" onclick="showBirthdayWish()">Click for a special birthday wish!</button>
+
+    <!-- Funny Cat with Cake GIF -->
+    <img class="cat-gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenJiZGEwZmJoN2k1MGlhcHpudnV2dGYzejZmMm1lcGNjcmYzc2ZhciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LzwcNOrbA3aYvXK6r7/giphy.gif" alt="Funny Cat with Cake">
+
+    <script>
+        function showBirthdayWish() {
+            // Display the birthday message on the screen and show the alert
+            document.getElementById("birthdayMessage").style.display = "block";
+            alert('Happy Birthday, Chintu! May your voros be beautiful.');
+        }
+    </script>
+</body>
+</html>
